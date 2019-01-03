@@ -1,0 +1,49 @@
+html, body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background: linear-gradient(to bottom, rgba(231, 240, 245, 1) 0%, rgba(170, 221, 235, 1) 100%);
+}
+.name {
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2px;
+    text-align: center;
+    font-size: 28px
+}
+
+.wrapper {
+    max-width: 50%;
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+}
+
+.my-picture {
+    border-radius: 50%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+}
+
+.left, .right {
+    margin: 5px;
+    max-width: 50%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+}
+
+.internship {
+    text-align: center;
+}
